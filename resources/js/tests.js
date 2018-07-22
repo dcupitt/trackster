@@ -84,7 +84,7 @@ TracksterTests.testSearchTracksByTitle = function(errors) {
     if (!url) {
       errors.push('searchTracksByTitle: $.ajax must specify a "url" parameter.');
     } else {
-      var match = url.match(/http:\/\/ws\.audioscrobbler\.com\/2\.0\/\?method=track\.search&track=.*&api_key=([a-z]|\d){32}&format=json/);
+      var match = url.match(/https:\/\/ws\.audioscrobbler\.com\/2\.0\/\?method=track\.search&track=.*&api_key=([a-z]|\d){32}&format=json/);
       if (!match) {
         errors.push("searchTracksByTitle: $.ajax url should hit the ws.audioscrobbler.com/2.0/method=track.search endpoint.");
       } else {
