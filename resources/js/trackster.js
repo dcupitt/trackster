@@ -1,3 +1,4 @@
+// Vanilla Javascript version - not linked to HTML document
 var Trackster = {};
 const API_KEY = "1b8c9e0335c8d1124976766ccd908a46";
 

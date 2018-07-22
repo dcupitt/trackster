@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>trackster</title>
+  <link rel="icon" href="favicon.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./resources/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+          integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+          crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="top">
+    <span class="logo tablet">trackster</span>
+    <span class="logo mobile">t</span>
+    <div></div>
+    <div class="search">
+          <input id="songTitle" type="text" name="search" placeholder="Whatcha lookin' for?" autocomplete="on">
+          <button id="searchButton"><i class="fa fa-search"></i></button>
+    </div>
+  </div>
+  <div class="tableContainer">
+    <div class="tableHead">
+      <div class="col-1"><h4></h4></div>
+      <div class="col-4"><h4>Song</h4></div>
+      <div class="col-3 tablet"><h4>Artist</h4></div>
+      <div class="col-2 tablet"><h4>Album Art</h4></div>
+      <div class="col-2 desktop"><h4>Listeners</h4></div>
+    </div>
+    <div id="searchResults">
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="./resources/js/tracksterJquery.js"></script>
+<script type="text/javascript" src="./resources/js/tests.js"></script>
+</html>
+
+
+
+<!-- API account created
+Here are the details of your new API account.
+
+Application name	trackster-deb
+API key	1b8c9e0335c8d1124976766ccd908a46
+Shared secret	274a622854fe5255809d729011ae52f3
+Registered to	dcupitt -->
